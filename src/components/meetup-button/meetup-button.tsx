@@ -11,7 +11,10 @@ export class MeetupButton {
 
   render() {
     return (
-      <button>{this.textbutton}</button>
+      <div>
+        <p>Hola como estas</p>
+        <button>{this.textbutton}</button>
+      </div>
     );
   }
 

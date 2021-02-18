@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+/* .client-allowed {
+  background-color: red;
+} */
+
+.client-allowed__admin {
+  background-color: blue;
+}
+
+.client-allowed__client {
+    background-color: red;
+}
