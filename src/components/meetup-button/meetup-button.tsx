@@ -8,11 +8,12 @@ import { Component, h, Prop } from '@stencil/core';
 export class MeetupButton {
 
   @Prop() textbutton: string;
+  @Prop() labeltext: string;
 
   render() {
     return (
       <div>
-        <p>Hola como estas</p>
+        <label>{this.labeltext}</label>
         <button>{this.textbutton}</button>
       </div>
     );

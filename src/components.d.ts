@@ -8,6 +8,7 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { Type } from "./utils/utils";
 export namespace Components {
     interface MeetupButton {
+        "labeltext": string;
         "textbutton": string;
     }
     interface MyComponent {
@@ -71,6 +72,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface MeetupButton {
+        "labeltext"?: string;
         "textbutton"?: string;
     }
     interface MyComponent {

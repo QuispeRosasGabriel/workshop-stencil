@@ -9,6 +9,7 @@
 
 | Property     | Attribute    | Description | Type     | Default     |
 | ------------ | ------------ | ----------- | -------- | ----------- |
+| `labeltext`  | `labeltext`  |             | `string` | `undefined` |
 | `textbutton` | `textbutton` |             | `string` | `undefined` |
 
 
