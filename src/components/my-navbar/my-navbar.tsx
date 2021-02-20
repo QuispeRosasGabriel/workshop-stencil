@@ -16,7 +16,7 @@ export class MyNavbar {
 
   getClientClass() {
     return {
-      [`client-allowed__${this.type}`]: this.isallowed || true
+      [`client-allowed__${this.type}`]: this.isallowed
     }
   }
 

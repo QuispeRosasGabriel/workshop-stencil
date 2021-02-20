@@ -27,6 +27,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <div>Hola Mundo! Soy {this.getText()} y este es un talelr de Stencil con Angular</div>;
   }
 }

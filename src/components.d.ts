@@ -5,7 +5,6 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { Type } from "./utils/utils";
 export namespace Components {
     interface MeetupButton {
         "labeltext": string;
@@ -28,7 +27,6 @@ export namespace Components {
     interface MyList {
         "hasmanymembers": boolean;
         "members": number;
-        "type": Type;
     }
     interface MyNavbar {
         "hasnewaccount": boolean;
@@ -92,7 +90,6 @@ declare namespace LocalJSX {
     interface MyList {
         "hasmanymembers"?: boolean;
         "members"?: number;
-        "type"?: Type;
     }
     interface MyNavbar {
         "hasnewaccount"?: boolean;

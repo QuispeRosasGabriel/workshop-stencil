@@ -7,11 +7,10 @@
 
 ## Properties
 
-| Property         | Attribute        | Description | Type                                      | Default     |
-| ---------------- | ---------------- | ----------- | ----------------------------------------- | ----------- |
-| `hasmanymembers` | `hasmanymembers` |             | `boolean`                                 | `undefined` |
-| `members`        | `members`        |             | `number`                                  | `undefined` |
-| `type`           | `type`           |             | `Type.ADMIN \| Type.CLIENTE \| Type.MOZO` | `undefined` |
+| Property         | Attribute        | Description | Type      | Default     |
+| ---------------- | ---------------- | ----------- | --------- | ----------- |
+| `hasmanymembers` | `hasmanymembers` |             | `boolean` | `undefined` |
+| `members`        | `members`        |             | `number`  | `undefined` |
 
 
 ----------------------------------------------

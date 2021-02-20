@@ -1,13 +1,10 @@
 import { Component, h, Prop } from '@stencil/core';
-import { Type } from '../../utils/utils';
-
 @Component({
   tag: 'my-list',
   styleUrl: 'my-list.css',
   shadow: true,
 })
 export class MyList {
-  @Prop() type: Type;
   @Prop() members: number;
   @Prop() hasmanymembers: boolean;
 

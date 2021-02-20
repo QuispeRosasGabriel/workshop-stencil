@@ -14,6 +14,7 @@ export class MeetupButton {
     return (
       <div>
         <label>{this.labeltext}</label>
+        <br/>
         <button>{this.textbutton}</button>
       </div>
     );
